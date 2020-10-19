@@ -9,7 +9,7 @@ pipeline {
             steps {
                 sh "chmod +x -R ${env.WORKSPACE}"
                 sh '''
-                    ./shell.sh
+                    ./source/code/bash/shell.sh
                 '''
             }
 
